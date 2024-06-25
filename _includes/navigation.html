@@ -1,0 +1,6 @@
+<nav>
+    <!-- <p>{{ site.description }}</p> -->
+    {% for page in site.data.navigation %}
+        <p><a href="{{ page.link }}">{{ page.name }}</a></p>
+    {% endfor %}
+</nav>
